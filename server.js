@@ -14,7 +14,7 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
 
 require("./routing/apiroutes")(app);
-require("./routing/dog")(app);
+require("./routing/htmlroutes")(app);
 
 
 
