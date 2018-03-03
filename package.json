@@ -4,6 +4,7 @@
   "description": "application to find people with common interests",
   "main": "server.js",
   "scripts": {
+    "prestart": "next build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "engines": {
