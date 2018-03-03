@@ -4,12 +4,8 @@
   "description": "application to find people with common interests",
   "main": "server.js",
   "scripts": {
-    "prestart": "next build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "engines": {
-      "node": "8.5.0"
-    }
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -24,8 +20,7 @@
   "homepage": "https://github.com/aksoyludeniz/friendfinder#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "0.0.5",
-    "path": "^0.12.7",
+    "express": "^4.16.2",
     "require": "^2.4.20"
   }
 }
